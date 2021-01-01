@@ -8,7 +8,7 @@ public aspect ClientAspect {
 
 	private static long timer;
 
-	pointcut retirerArgent(): call(* ma.ensa.aop.Client.retirer(*));
+	pointcut retirerArgent(): call(* net.sabercrafts.aop.Client.retirer(*));
 
 	Object around() : retirerArgent() {
 		
@@ -27,7 +27,7 @@ public aspect ClientAspect {
 			logger.info("Solde disponible.");
 			o = proceed();
 			
-			logger.info("Le client " + client.getNom() + " a retiré une somme d'argent de "+mt+"dh");
+			logger.info("Le client " + client.getNom() + " a retiré une somme de "+mt+"dh");
 			logger.info("Le nouveau solde est " + client.getCp().getSolde());
 			logger.info(" Cette operation a pris " + (System.currentTimeMillis() - timer) + "ms");
 		}
@@ -37,7 +37,7 @@ public aspect ClientAspect {
 		return o;
 	}
 
-	pointcut verserArgent(): call(* ma.ensa.aop.Client.verser(*));
+	pointcut verserArgent(): call(* net.sabercrafts.aop.Client.verser(*));
 
 	before() : verserArgent() {
 

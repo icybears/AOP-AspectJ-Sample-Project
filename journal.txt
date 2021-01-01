@@ -1,47 +1,16 @@
  INFO [main] (Main.java:15) - ---- Operation de Retrait
  INFO [main] (Main.java:22) - Verification du solde
- INFO [main] (Main.java:27) - Solde disponible.
- INFO [main] (Main.java:31) - Le client John a retiré une somme d'argent
- INFO [main] (Main.java:32) - Le nouveau solde est 1800.0
- INFO [main] (Main.java:33) -  Cette operation a pris 5ms
- INFO [main] (Main.java:34) - ---- Fin Operation
- INFO [main] (AppAspect.aj:43) - ---- Operation de Versement 
- INFO [main] (AppAspect.aj:50) - Le client John a versé une somme de 400.0dh
- INFO [main] (AppAspect.aj:51) - Le nouveau solde est 2200.0
- INFO [main] (AppAspect.aj:52) -  Cette operation a pris 1ms
- INFO [main] (AppAspect.aj:53) - ---- Fin Operation
- INFO [main] (Main.java:15) - ---- Operation de Retrait
- INFO [main] (Main.java:22) - Verification du solde
- INFO [main] (Main.java:27) - Solde disponible.
- INFO [main] (Main.java:31) - Le client John a retiré une somme d'argent de 200.0dh
- INFO [main] (Main.java:32) - Le nouveau solde est 1800.0
- INFO [main] (Main.java:33) -  Cette operation a pris 5ms
- INFO [main] (Main.java:34) - ---- Fin Operation
- INFO [main] (AppAspect.aj:43) - ---- Operation de Versement 
- INFO [main] (AppAspect.aj:50) - Le client John a versé une somme de 400.0dh
- INFO [main] (AppAspect.aj:51) - Le nouveau solde est 2200.0
- INFO [main] (AppAspect.aj:52) -  Cette operation a pris 1ms
- INFO [main] (AppAspect.aj:53) - ---- Fin Operation
- INFO [main] (AppAspect.aj:43) - ---- Operation de Versement 
- INFO [main] (AppAspect.aj:50) - Le client John a versé une somme de 400.0dh
- INFO [main] (AppAspect.aj:51) - Le nouveau solde est 2400.0
- INFO [main] (AppAspect.aj:52) -  Cette operation a pris 1ms
- INFO [main] (AppAspect.aj:53) - ---- Fin Operation
- INFO [main] (Main.java:15) - ---- Operation de Retrait
- INFO [main] (Main.java:22) - Verification du solde
  INFO [main] (Main.java:25) - Echec. Solde insuffisant.
  INFO [main] (Main.java:35) - ---- Fin Operation
- INFO [main] (AppAspect.aj:44) - ---- Operation de Versement 
- INFO [main] (AppAspect.aj:51) - Le client John a versé une somme de 400.0dh
- INFO [main] (AppAspect.aj:52) - Le nouveau solde est 2400.0
- INFO [main] (AppAspect.aj:53) -  Cette operation a pris 2ms
- INFO [main] (AppAspect.aj:54) - ---- Fin Operation
  INFO [main] (Main.java:15) - ---- Operation de Retrait
  INFO [main] (Main.java:22) - Verification du solde
- INFO [main] (Main.java:25) - Echec. Solde insuffisant.
+ INFO [main] (Main.java:27) - Solde disponible.
+ INFO [main] (Main.java:30) - Le client John a retiré une somme de 600.0dh
+ INFO [main] (Main.java:31) - Le nouveau solde est 1400.0
+ INFO [main] (Main.java:32) -  Cette operation a pris 4ms
  INFO [main] (Main.java:35) - ---- Fin Operation
  INFO [main] (ClientAspect.aj:44) - ---- Operation de Versement 
  INFO [main] (ClientAspect.aj:51) - Le client John a versé une somme de 400.0dh
- INFO [main] (ClientAspect.aj:52) - Le nouveau solde est 2400.0
- INFO [main] (ClientAspect.aj:53) -  Cette operation a pris 3ms
+ INFO [main] (ClientAspect.aj:52) - Le nouveau solde est 1800.0
+ INFO [main] (ClientAspect.aj:53) -  Cette operation a pris 51ms
  INFO [main] (ClientAspect.aj:54) - ---- Fin Operation
